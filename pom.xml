@@ -135,6 +135,8 @@
 						<webdriver.driver>${webdriver.driver}</webdriver.driver>
 					</systemPropertyVariables>
 					<reuseForks>true</reuseForks>
+					<parallel>classes</parallel>
+                    <threadCount>3</threadCount>
 				</configuration>
 				<executions>
 					<execution>
